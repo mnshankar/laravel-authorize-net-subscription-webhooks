@@ -4,7 +4,7 @@ namespace App\WebhookJobs;
 
 class {{class}}
 {
-    public function __invoke($eventPayload) {
+    public function __construct($eventPayload) {
     	//
     }
 }
