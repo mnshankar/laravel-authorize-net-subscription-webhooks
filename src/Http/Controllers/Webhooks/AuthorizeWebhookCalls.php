@@ -4,7 +4,7 @@ namespace Joeelia\AuthorizeNet\Webhooks;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use App\Exceptions\AuthorizeNetWebhookFailed as WebhookFailed;
+use Joeelia\AuthorizeNet\Webhooks\Exceptions\AuthorizeNetWebhookFailed as WebhookFailed;
 
 class AuthorizeWebhookCalls extends Model
 {
